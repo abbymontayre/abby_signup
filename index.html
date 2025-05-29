@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <aside>
+        <div>
+            <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png">
+        </div>
+    </aside>
+    <main>
+        <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</h2>
+        <h2>Sign up <span>now</span> to get started.</h2>
+        <h2>You <span>know</span> you want to.</h2>
+        <section class="sign_up">
+            <h2>Let's do this!</h2>
+            <form action="/my-website-handler.html" method="post">
+                <fieldset>
+                    <table>
+                        <tr>
+                            <td>
+                                <p>
+                                    <label for="firstname">
+                                        <span>First Name</span>
+                                    </label>
+                                    <input type="text" for="firstname" name="firstname">
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    <label for="lastname">
+                                        <span>Last Name</span>
+                                    </label>
+                                    <input type="text" for="lastname" name="lastname">
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    <label for="email">
+                                        <span>Email</span>
+                                    </label>
+                                    <input type="email" for="email" name="email">
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    <label for="phone_num">
+                                        <span>Phone Number</span>
+                                    </label>
+                                    <input type="tel" for="phone_num" name="phone_num">
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    <label for="pwd">
+                                        <span>Password</span>
+                                    </label>
+                                    <input type="password" for="pwd" name="pwd">
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    <label for="confirm_pwd">
+                                        <span>Confirm Password</span>
+                                    </label>
+                                    <input type="text" for="confirm_pwd" name="confirm_pwd">
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a><span>Log in</span></a></p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
